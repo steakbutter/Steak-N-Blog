@@ -10,3 +10,11 @@
    text-align: left;
 
 }
+
+#title {
+    width: 40vh
+}
+
+#username {
+    width: 40vh;
+}
