@@ -8,20 +8,40 @@
 }
 
 .circle {
-    height: 50vh;
-    width: 50vh;
+    height: 45vh;
+    width: 45vh;
     background-color: #eccb10;
     background-image: linear-gradient(rgb(253, 231, 29), rgb(78, 67, 3));
     border-radius: 50%;
     margin: 5vh 4vh ;
-    display: flex;
-    flex-direction: column;
+   
+    
   }
 
   h1 {
     position: absolute;
-    top: 260px;
-    left: 130px;
+    top: 240px;
+    left: 110px;
     color: white;
     font-size: 50px;
+  }
+  
+  .vert-line {
+    margin-top: -45px;
+    border: double;
+    border-width: 2px;
+    border-left: 2px solid black;
+    height: 180vh;
+    position: fixed;
+    right: 50%;
+  }
+
+  .vert-line-2 {
+    margin-top: -45px;
+    border: double;
+    border-width: 2px;
+    border-left: 2px solid black;
+    height: 180vh;
+    position: fixed;
+    right: 51%;
   }
