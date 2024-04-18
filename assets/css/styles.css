@@ -45,3 +45,10 @@
     position: fixed;
     right: 51%;
   }
+
+ h2 {
+    float: right;
+    position: relative;
+    bottom: 370px;
+    right: 13vh;
+ }
