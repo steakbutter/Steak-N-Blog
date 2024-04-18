@@ -1,0 +1,12 @@
+.inputForm {
+    position: fixed;
+    top: 30vh;
+    right: 5vh;
+}
+
+#messageBox {
+   height: 10vh;
+   width: 40vh;
+   text-align: left;
+
+}
