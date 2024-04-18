@@ -35,6 +35,7 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
 ## Credits
 https://www.w3schools.com/howto/howto_css_circles.asp
 https://www.w3schools.com/tags/tag_hr.asp
+https://www.w3schools.com/css/css3_gradients.asp
 
 
 ## License
