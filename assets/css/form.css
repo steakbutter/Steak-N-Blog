@@ -18,3 +18,9 @@
 #username {
     width: 40vh;
 }
+
+#submitButton {
+    background-color: black;
+    color: white;
+    width: 40vh;
+}
