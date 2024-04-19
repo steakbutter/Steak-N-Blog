@@ -42,7 +42,9 @@
 
   .right-side {
     width: 50%;
-    
+    border-left: 4px solid black;
+    margin-left: 5px;
+
   }
   
   /* .vert-line {
@@ -64,8 +66,5 @@
   } */
 
  h2 {
-    /* float: right; */
-    /* position: relative; */
-    /* bottom: 370px;
-    right: 13vh; */
+    
  }
