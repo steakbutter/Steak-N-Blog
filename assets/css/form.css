@@ -1,5 +1,4 @@
 .inputForm {
-    position: fixed;
     top: 30vh;
     right: 5vh;
 }
@@ -23,4 +22,8 @@
     background-color: black;
     color: white;
     width: 40vh;
+}
+
+#submitButton:hover {
+    
 }

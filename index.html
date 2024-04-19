@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,32 +8,42 @@
     <link rel="stylesheet" href="assets/css/form.css">
     <title>Steak N Blog</title>
 </head>
+
 <body>
     <header>
         <p id="sunemoji">Sun Emoji</p>
         <hr class="hor-line">
         <hr class="hor-line">
     </header>
-    <section class="circle">
-        <h1>My First Blog</h1>
-        <hr class="vert-line">
-        <hr class="vert-line-2">
+<main class="flex-container">
+    <section class="circle-container">
+        <section class="circle">
+            <h1>My First Blog</h1>
+        </section>
+
     </section>
-    <h2>What's on your mind?</h2>
 
-    <form class="inputForm">
-        <label for="name">Username:</label><br>
-        <input type="text" id="username" username="username" required>
-        <br><br><br>
-        <label for="title">Title:</label><br>
-        <input type="text" id="title" title="title" required>
-        <br><br><br>
-        <label for="message">Message:</label><br>
-        <input id="messageBox" type="text" message="message" required><br>
-        <br> <br>
-        <button id="submitButton">Submit</button>
+    <section class="right-side">
+        <h2>What's on your mind?</h2>
 
-    </form>
+        <form class="inputForm">
+            <label for="name">Username:</label><br>
+            <input type="text" id="username" username="username" required>
+            <br><br><br>
+            <label for="title">Title:</label><br>
+            <input type="text" id="title" title="title" required>
+            <br><br><br>
+            <label for="message">Message:</label><br>
+            <input id="messageBox" type="text" message="message" required><br>
+            <br> <br>
+            <button id="submitButton">Submit</button>
+
+        </form>
+    </section>
+
+</main>
     
+
 </body>
+
 </html>
