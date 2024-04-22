@@ -1,22 +1,38 @@
+const username = document.getElementById('username');
+    const title = document.getElementById('title');
+    const message = document.getElementById('message');
 let form = document.getElementById('formInput');
-form.addEventListener('click', function(event){
+form.addEventListener('submit', function(event){
     event.preventDefault()
-    let username = document.getElementById('username');
-    let title = document.getElementById('title');
-    let message = document.getElementById('message');
+    const userData = {
+        username: username.value,
+        title: title.value,
+        message: message.value,
+        
+
+    };
+
+    console.log(`username:`, username.value);
+    console.log(`blog title:`, title.value);
+    console.log(`message:`, message.value);
+    localStorage.setItem('userData', JSON.stringify(userData));
+
+    location.reload
+
+
 })
 
 
-    if (username.value == "" || title.value == "" || message.value == "") {
-        alert("Ensure you input a value in both fields!");
-      } else {
-        // perform operation with form input
-        alert("This form has been successfully submitted!");
-        console.log(
-          `This form has a username of ${username.value} and title of ${title.value}`
-        );
+//     if (username.value == "" || title.value == "" || message.value == "") {
+//         alert("Ensure you input a value in both fields!");
+//       } else {
+//         // perform operation with form input
+//         alert("This form has been successfully submitted!");
+//         console.log(
+//           `This form has a username of ${username.value} and title of ${title.value}`
+//         );
     
-        username.value = "";
-        title.value = "";
+//         username.value = "";
+//         title.value = "";
 
-}
+// }
