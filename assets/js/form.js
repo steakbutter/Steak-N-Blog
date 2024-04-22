@@ -1,6 +1,21 @@
-const form = document.getElementById('inputForm');
-form.addEventListener('submit', function(event){
+let form = document.getElementById('formUser');
+form.addEventListener('submit', (event) => {
     event.preventDefault()
-    const usernameInput = document.getElementById('username').value;
-    console.log(usernameInput); 
+    let username = document.getElementById('username');
+    let title = document.getElementById('title');
+    let message = document.getElementById('message');
 })
+
+    if (username.value == "" || title.value == "" || message.value == "") {
+        alert("Ensure you input a value in both fields!");
+      } else {
+        // perform operation with form input
+        alert("This form has been successfully submitted!");
+        console.log(
+          `This form has a username of ${username.value} and title of ${title.value}`
+        );
+    
+        username.value = "";
+        title.value = "";
+
+}
