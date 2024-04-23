@@ -4,13 +4,17 @@
     justify-content: right;
 }
 #backButton {
+    margin-right: 8px;
+    height: 4vh;
+    width: 6vh;
     display: flex;
     justify-content: right;
 }
 #sunemoji {
     display: flex;
-    text-align: right;
-    padding-right: 1vh;
+    justify-content: right;
+    margin-left: 8px;
+    margin-top: 4px;
 }
 #sunemoji:hover {
 cursor: pointer;
