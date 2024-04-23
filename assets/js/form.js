@@ -1,23 +1,29 @@
-const username = document.getElementById('username');
+
+let submitButton = document.getElementById('submit');
+submitButton.addEventListener('click', function(event){
+    event.preventDefault()
+    const username = document.getElementById('username');
+    console.log(username);
     const title = document.getElementById('title');
     const message = document.getElementById('message');
-let form = document.getElementById('formInput');
-form.addEventListener('submit', function(event){
-    event.preventDefault()
     const userData = {
         username: username.value,
         title: title.value,
-        message: message.value,
-        
+        message: message.value
 
     };
+    let allPosts = JSON.parse(localStorage.getItem('blogPost'));
+    if (!allPosts) {
+        allPosts = []
+    }
+    allPosts.push(userData)
 
     console.log(`username:`, username.value);
     console.log(`blog title:`, title.value);
     console.log(`message:`, message.value);
-    localStorage.setItem('username', JSON.stringify(userData.value));
+    localStorage.setItem('blogPost', JSON.stringify(allPosts));
 
-    location.reload
+    location.href="blog.html"
 
 
 })
