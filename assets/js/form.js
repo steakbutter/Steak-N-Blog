@@ -15,7 +15,7 @@ form.addEventListener('submit', function(event){
     console.log(`username:`, username.value);
     console.log(`blog title:`, title.value);
     console.log(`message:`, message.value);
-    localStorage.setItem('userData', JSON.stringify(userData));
+    localStorage.setItem('username', JSON.stringify(userData.value));
 
     location.reload
 
