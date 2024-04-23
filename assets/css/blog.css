@@ -1,0 +1,17 @@
+.headerContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+#backButton {
+    display: flex;
+    justify-content: right;
+}
+#sunemoji {
+    display: flex;
+    text-align: right;
+    padding-right: 1vh;
+}
+#sunemoji:hover {
+cursor: pointer;
+}
