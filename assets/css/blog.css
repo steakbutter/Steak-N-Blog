@@ -23,3 +23,11 @@
 #sunemoji:hover {
 cursor: pointer;
 }
+
+.blog-line {
+    background-color: gray;
+    color: black;
+    border: 2px solid rgb(0, 0, 0);
+    border-bottom: 2px solid rgb(0, 0, 0);
+    margin-top: 10px;
+}
