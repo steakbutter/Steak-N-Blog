@@ -3,6 +3,10 @@
     flex-direction: row;
     justify-content: right;
 }
+.dark-mode {
+    background-color: black;
+    color: white;
+}
 #backButton {
     margin-right: 8px;
     height: 4vh;

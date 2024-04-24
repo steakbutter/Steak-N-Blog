@@ -37,7 +37,8 @@ https://www.w3schools.com/howto/howto_css_circles.asp
 https://www.w3schools.com/tags/tag_hr.asp
 https://www.w3schools.com/css/css3_gradients.asp
 https://blog.logrocket.com/localstorage-javascript-complete-guide/#:~:text=The%20setItem()%20method%20allows,the%20value%20attached%20to%20it.
-
+https://www.w3schools.com/howto/howto_js_toggle_dark_mode.asp
+https://www.w3schools.com/jsref/met_his_back.asp
 
 ## License
 
