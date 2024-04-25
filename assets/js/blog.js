@@ -26,9 +26,13 @@ for(let i = 0; i < blogArray.length; i++) {
     usernameCard.textContent = blogArray[i].username
     // add some styling or id or class attributes
     wrapper.classList.add("post");
+    titleCard.classList.add("title-post")
+    descriptionCard.classList.add("message-post")
+    usernameCard.classList.add("user-post")
     wrapper.appendChild(titleCard);
     wrapper.appendChild(descriptionCard);
     wrapper.appendChild(usernameCard);
+
     // WE HAVE TO ADD IT TO THE DOM (WEB Broswer Page)
     postsContainer.append(wrapper);
 }

@@ -47,10 +47,29 @@
     border: 2px solid black; */
 }
 .post {
-    height: 15vh;
+    height: 20vh;
     width: 100vh;
     background-color: rgb(129, 255, 127);
     margin-left: 7vh;
     margin-top: 2vh;
     border: 2px solid black;
+}
+
+.title-post {
+    margin-left: 4px;
+}
+.message-post {
+    margin-left: 2px;
+    font-size: 18px;
+}
+
+.user-post {
+    text-align: left;
+    font-weight: bolder;
+    font-style: italic;
+    margin-left: 2px;
+}
+
+.dark div {
+background-color: rgb(223, 40, 40);
 }
