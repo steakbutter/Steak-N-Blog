@@ -9,6 +9,17 @@
   width: 0;
   height: 0;
 }
+.light {
+  background-color: #ffffff;
+  color: black;
+  height: 100vh;
+}
+
+.dark {
+  background-color: black;
+  color: white;
+  height: 100vh;
+}
 .hor-line {
     border-style:double;
     border-width: 2px;
