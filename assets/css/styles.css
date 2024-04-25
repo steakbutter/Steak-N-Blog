@@ -1,3 +1,14 @@
+.switch {
+  margin-left: 108vh;
+}
+.switch:hover {
+  cursor: pointer;
+  }
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
 .hor-line {
     border-style:double;
     border-width: 2px;
@@ -9,6 +20,7 @@
 #sunemoji:hover {
 cursor: pointer;
 }
+
 .flex-container {
     display: flex;
     flex-direction: row;
