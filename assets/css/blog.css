@@ -3,10 +3,11 @@
     flex-direction: row;
     justify-content: right;
 }
-.dark-mode {
-    background-color: black;
-    color: white;
-}
+.light {
+    background-color: #ffffff;
+    color: black;
+    height: 100vh;
+  }
 #backButton {
     
     width: 8vh;

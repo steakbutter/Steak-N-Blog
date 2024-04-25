@@ -1,5 +1,6 @@
-function darkMode() {
-    const sunEmoji = document.body
-    sunEmoji.classList.toggle('dark-mode')
-    }
-  
+const sunEmoji = document.querySelector('#sunemoji');
+const container = document.querySelector('.container');
+
+let mode = 'light';
+
+
