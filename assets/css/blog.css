@@ -8,6 +8,12 @@
     color: black;
     height: 100vh;
   }
+
+.dark {
+    background-color: black;
+    color: white;
+    height: 100vh;
+}
 #backButton {
     
     width: 8vh;
