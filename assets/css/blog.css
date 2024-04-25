@@ -8,21 +8,20 @@
     color: white;
 }
 #backButton {
-    margin-right: 8px;
-    height: 4vh;
-    width: 6vh;
-    display: flex;
-    justify-content: right;
+    
+    width: 8vh;
 }
-#sunemoji {
-    display: flex;
-    justify-content: right;
-    margin-left: 8px;
-    margin-top: 4px;
-}
-#sunemoji:hover {
-cursor: pointer;
-}
+.switch {
+    margin-left: 100vh;
+  }
+  .switch:hover {
+    cursor: pointer;
+    }
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
 
 .blog-line {
     background-color: gray;

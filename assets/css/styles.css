@@ -13,13 +13,6 @@
     border-style:double;
     border-width: 2px;
 }
-#sunemoji {
-    text-align: right;
-    padding-right: 1vh;
-}
-#sunemoji:hover {
-cursor: pointer;
-}
 
 .flex-container {
     display: flex;
