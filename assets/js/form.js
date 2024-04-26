@@ -3,15 +3,16 @@ let submitButton = document.getElementById('submit');
 submitButton.addEventListener('click', function(event){
     event.preventDefault()
     const username = document.getElementById('username');
-    console.log(username);
     const title = document.getElementById('title');
     const message = document.getElementById('message');
     const userData = {
         username: username.value,
         title: title.value,
         message: message.value
-
+        
     };
+
+    
     let allPosts = JSON.parse(localStorage.getItem('blogPost'));
     if (!allPosts) {
         allPosts = []

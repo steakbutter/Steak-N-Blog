@@ -2,36 +2,23 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+This website helped me understood the importance of local storage and data management. I solved the problem of gathering user's input data into the local storage to help me use that same data and create another webpage. Managing information by using the local storage is a great way to keep data in order and displayed however the manager of the website wants to display it.
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+I also learned and applied how to toggle a dark/light mode for webpages. 
 
-## Table of Contents (Optional)
-
-If your README is long, add a table of contents to make it easy for users to find what they need.
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
 
 ## Installation
+N/A
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
 
 ## Usage
+Click on the following webpage link. 
+https://steakbutter.github.io/Steak-N-Blog/
 
-Provide instructions and examples for use. Include screenshots as needed.
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
-
+Fill in the Username, Title and Message boxes to complete the blog post you desire to write. 
+![alt text](<assets/Images/Screenshot 2024-04-25 at 6.08.21 p.m..png>)
+![alt text](<assets/Images/Screenshot 2024-04-25 at 6.11.49 p.m..png>)
+![alt text](<assets/Images/Screenshot 2024-04-25 at 6.12.40 p.m..png>)
 ## Credits
 https://www.w3schools.com/howto/howto_css_circles.asp
 https://www.w3schools.com/tags/tag_hr.asp
@@ -43,6 +30,5 @@ https://www.w3schools.com/howto/howto_css_shapes.asp
 
 ## License
 
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
-
+N/A
 ---
